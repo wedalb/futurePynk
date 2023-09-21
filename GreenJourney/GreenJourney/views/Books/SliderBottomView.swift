@@ -1,10 +1,3 @@
-//
-//  SliderBottomView.swift
-//  BookPageFlipAnimation
-//
-//  Created by Cecilia Chen on 8/4/23.
-//
-
 import SwiftUI
 
 struct SliderBottomView: View {
@@ -22,7 +15,7 @@ struct SliderBottomView: View {
                         
                         VStack(alignment: .leading, spacing: 18) {
                             Text(book.title)
-                                .font(.largeTitle)
+                                .font(.title)
                                 .bold()
                                 .foregroundColor(.black.opacity(0.7))
                                 .offset(x: CGFloat(currentIndex) * -(size.width + 30))
@@ -35,7 +28,7 @@ struct SliderBottomView: View {
                                 .offset(x: CGFloat(currentIndex) * -(size.width + 30))
                                 .opacity(currentIndex == index ? 1 : 0)
                                 .animation(.interactiveSpring(response: 0.6, dampingFraction: 0.7, blendDuration: 0.7).delay(currentIndex < index ? 0.1 : 0), value: currentIndex == index)
-
+                                .lineLimit(nil) // Allow text to wrap to the next line
                         }
                         .frame(width: size.width+30, alignment: .leading)
                     }
@@ -46,8 +39,6 @@ struct SliderBottomView: View {
             .padding(.bottom, 10)
             
             ZStack(alignment: .leading) {
-                Capsule()
-                    .fill(.gray.opacity(0.4))
                 
                 GeometryReader {
                     let size = $0.size

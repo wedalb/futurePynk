@@ -12,7 +12,6 @@ struct DashboardView: View {
     
     var body: some View {
         VStack {
-            HeaderView()
             BookSlider(currentBook: $currentBook)
             SliderBottomView(currentBook: $currentBook)
         }
