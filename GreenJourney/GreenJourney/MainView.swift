@@ -14,7 +14,7 @@ struct MainView: View {
                 .tabItem {
                         Label("Dashboard", systemImage: "circle.fill")
                     }
-            TabView2()
+            EventView()
                 .tabItem {
                         Label("Events", systemImage: "app.fill")
                     }
