@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4262E7F32ABCD3D900EACAFA /* GreenJourneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4262E7F22ABCD3D900EACAFA /* GreenJourneyApp.swift */; };
-		4262E7F52ABCD3D900EACAFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4262E7F42ABCD3D900EACAFA /* ContentView.swift */; };
+		4262E7F52ABCD3D900EACAFA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4262E7F42ABCD3D900EACAFA /* MainView.swift */; };
 		4262E7F72ABCD3D900EACAFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4262E7F62ABCD3D900EACAFA /* Assets.xcassets */; };
 		4262E7FA2ABCD3D900EACAFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4262E7F92ABCD3D900EACAFA /* Preview Assets.xcassets */; };
 		4262E8042ABCD3DA00EACAFA /* GreenJourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4262E8032ABCD3DA00EACAFA /* GreenJourneyTests.swift */; };
@@ -46,7 +46,7 @@
 /* Begin PBXFileReference section */
 		4262E7EF2ABCD3D900EACAFA /* GreenJourney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenJourney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4262E7F22ABCD3D900EACAFA /* GreenJourneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenJourneyApp.swift; sourceTree = "<group>"; };
-		4262E7F42ABCD3D900EACAFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4262E7F42ABCD3D900EACAFA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4262E7F62ABCD3D900EACAFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4262E7F92ABCD3D900EACAFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4262E7FF2ABCD3DA00EACAFA /* GreenJourneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenJourneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,7 +118,7 @@
 				4262E81D2ABCD3E600EACAFA /* viewModifiers */,
 				4262E81C2ABCD3E100EACAFA /* views */,
 				4262E7F22ABCD3D900EACAFA /* GreenJourneyApp.swift */,
-				4262E7F42ABCD3D900EACAFA /* ContentView.swift */,
+				4262E7F42ABCD3D900EACAFA /* MainView.swift */,
 				4262E7F62ABCD3D900EACAFA /* Assets.xcassets */,
 				4262E7F82ABCD3D900EACAFA /* Preview Content */,
 			);
@@ -320,7 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4262E82C2ABCD41800EACAFA /* NewsTitleModifier.swift in Sources */,
-				4262E7F52ABCD3D900EACAFA /* ContentView.swift in Sources */,
+				4262E7F52ABCD3D900EACAFA /* MainView.swift in Sources */,
 				4262E82A2ABCD40600EACAFA /* TabView2.swift in Sources */,
 				4262E8292ABCD40600EACAFA /* DashboardView.swift in Sources */,
 				4262E8252ABCD40600EACAFA /* MapView.swift in Sources */,
