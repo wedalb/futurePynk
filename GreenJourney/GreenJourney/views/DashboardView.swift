@@ -8,10 +8,18 @@
 import SwiftUI
 
 struct DashboardView: View {
+    @State var currentBook: Book = sampleBooks.first!
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            HeaderView()
+            BookSlider(currentBook: $currentBook)
+            SliderBottomView(currentBook: $currentBook)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
     }
 }
+
 
 struct DashboardView_Previews: PreviewProvider {
     static var previews: some View {

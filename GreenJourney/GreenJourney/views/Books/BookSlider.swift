@@ -26,6 +26,3 @@ struct BookSlider: View {
     }
 }
 
-#Preview {
-    BookSlider(currentBook: .constant(sampleBooks[0]))
-}
